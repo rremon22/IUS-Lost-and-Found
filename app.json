@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "IUS Lost & Found",
+    "slug": "ius-lost-found",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow access to your photos to attach an image to a post.",
+          "cameraPermission": "Allow camera access to take a photo of the item."
+        }
+      ]
+    ],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": { "favicon": "./assets/favicon.png" }
+  }
+}
